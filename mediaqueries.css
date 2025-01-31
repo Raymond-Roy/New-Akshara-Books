@@ -1,5 +1,5 @@
 @media screen and (max-width: 1400px) {
-  #profile {
+  #home {
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #booktypes {
     height: fit-content;
   }
 }
@@ -19,11 +19,8 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile,
+
+  #home,
   .section-container {
     display: block;
   }
@@ -52,7 +49,7 @@
   footer {
     height: 40vh;
   }
-  #profile {
+  #home {
     height: 83vh;
     margin-bottom: 0;
   }
@@ -75,9 +72,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
+
   .logo {
     font-size: 1.5rem;
   }
